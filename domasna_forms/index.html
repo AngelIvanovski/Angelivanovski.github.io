@@ -13,7 +13,7 @@
     </p>
     <p>Includes sandwich, snack, and drink.</p>
 
-    <form action="" method="post">
+    <form action="" method="get">
       <fieldset>
         <legend>Order Information</legend>
         <label for="name">Name</label><br />
@@ -30,14 +30,14 @@
         <input
           type="radio"
           id="tomato-mozzarella"
-          name="sandwich"
+          name="sandwich-monday"
           value="Tomato Mozzarella"
         />
         <label for="tomato-mozzarella">Tomato Mozzarella</label><br />
         <input
           type="radio"
           id="chicken-salad"
-          name="sandwich"
+          name="sandwich-monday"
           value="Chicken Salad"
         />
         <label for="chicken-salad">Chicken Salad</label><br />
@@ -46,25 +46,30 @@
         <input
           type="radio"
           id="greek-salad-wrap"
-          name="sandwich"
+          name="sandwich-tuesday"
           value="Greek Salad Wrap"
         />
         <label for="greek-salad-wrap">Greek Salad Wrap</label><br />
-        <input type="radio" id="toto-wrap" name="sandwich" value="Toto Wrap" />
+        <input
+          type="radio"
+          id="toto-wrap"
+          name="sandwich-tuesday"
+          value="Toto Wrap"
+        />
         <label for="toto-wrap">Toto Wrap</label><br />
 
         <p><strong>Wednesday</strong></p>
         <input
           type="radio"
           id="red-pepper-hummus"
-          name="sandwich"
+          name="sandwich-wednesday"
           value="Red Pepper Hummus"
         />
         <label for="red-pepper-hummus">Red Pepper Hummus</label><br />
         <input
           type="radio"
           id="roasted-turkey"
-          name="sandwich"
+          name="sandwich-wednesday"
           value="Roasted Turkey"
         />
         <label for="roasted-turkey">Roasted Turkey</label><br />
@@ -73,21 +78,31 @@
         <input
           type="radio"
           id="carrot-ginger-hummus-wrap"
-          name="sandwich"
+          name="sandwich-thursday"
           value="Carrot-Ginger Hummus Wrap"
         />
         <label for="carrot-ginger-hummus-wrap">Carrot-Ginger Hummus Wrap</label
         ><br />
-        <input type="radio" id="egg-salad" name="sandwich" value="Egg Salad" />
+        <input
+          type="radio"
+          id="egg-salad"
+          name="sandwich-thursday"
+          value="Egg Salad"
+        />
         <label for="egg-salad">Egg Salad</label><br />
 
         <p><strong>Friday</strong></p>
-        <input type="radio" id="dado-wrap" name="sandwich" value="Dado Wrap" />
+        <input
+          type="radio"
+          id="dado-wrap"
+          name="sandwich-friday"
+          value="Dado Wrap"
+        />
         <label for="dado-wrap">Dado Wrap</label><br />
         <input
           type="radio"
           id="tuna-salad"
-          name="sandwich"
+          name="sandwich-friday"
           value="Tuna Salad"
         />
         <label for="tuna-salad">Tuna Salad</label><br />
@@ -106,7 +121,7 @@
         <legend>Snack</legend>
         <input type="radio" id="apple" name="snack" value="Apple" />
         <label for="apple">Apple</label><br />
-        <input type="radio" id="banana" name="snack" value="banana" />
+        <input type="radio" id="banana" name="snack" value="Banana" />
         <label for="banana">Banana</label><br />
         <input
           type="radio"
@@ -127,10 +142,9 @@
           <option value="Hot-Sencha-Green-Tea">Hot Sencha Green Tea</option>
           <option value="Iced-Sencha-Green-Tea">Iced Sencha Green Tea</option>
           <option value="Hot-Keemun-Black-Tea">Hot Keemun Black Tea</option>
-          <option value="Iced-Keemun-Black-Tea">
-            Iced Keemun Black Tea
-          </option></select
-        ><br /><br />
+          <option value="Iced-Keemun-Black-Tea">Iced Keemun Black Tea</option>
+        </select>
+        <br /><br />
 
         <input
           type="checkbox"
