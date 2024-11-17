@@ -1,0 +1,59 @@
+
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+    .body-1 {
+      background-color: white;
+      background-image: url(./assets/images/programmer.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      
+    }
+    .body-2{
+      background-color: white;
+      background-image: url(./html-homeworks/assets/programer2.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+    h1 {
+      text-align: center;
+      font-family: Oswald;
+      font-size: 40px;
+      padding-bottom: 5px;
+      color: #f98c11;
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .info {
+      list-style-type: none;
+    }
+    .info li {
+      position: relative;
+      font-family: Oswald;
+      color: white;
+      text-align: center;
+      background-color: forestgreen;
+      opacity: 90%;
+      padding: 45px;
+      margin: 80px;
+      font-size: 30px;
+      border-radius: 60px;
+      cursor: pointer;
+      width: 280px;
+      max-width: 400px;
+    }
+    .info li:hover {
+      background-color: #01a201;
+      box-shadow: 0 0 60px 30px #fff;
+    }
+    .info a {
+      text-decoration: none;
+      color: inherit;
+    }
+
