@@ -18,6 +18,7 @@ body {
   width: 982px;
   height: 314px;
   flex-wrap: wrap;
+  border: solid black 2px;
 }
 
 .box-1 {
