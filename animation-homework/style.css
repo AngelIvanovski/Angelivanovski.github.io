@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 100%;
 }
 
 body {
@@ -65,7 +65,6 @@ body {
   background-size: 200% 20%;
   background-position: bottom right;
   animation: fill 3s 1s forwards infinite;
-  border-color: linear-gradient(to right, white 50%, transparent 0);
 }
 
 .loading-1 {
@@ -161,7 +160,7 @@ body {
   }
 }
 
-@keyframes move {
+ @keyframes move {
   0% {
     transform: translate(0px);
   }
@@ -177,4 +176,4 @@ body {
   100% {
     transform: translate(0);
   }
-}
+} 
